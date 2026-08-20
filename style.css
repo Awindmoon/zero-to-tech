@@ -298,6 +298,20 @@ body {
   margin: 0;
 }
 
+.page-footer .beian {
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
+
+.page-footer .beian a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+
+.page-footer .beian a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 520px) {
   .card-header {
     flex-direction: column;
